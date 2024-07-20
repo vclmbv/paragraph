@@ -1,0 +1,55 @@
+{
+  "name": "@vclmbv/paragraph",
+  "version": "0.0.0",
+  "author": "vclmbv",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/paragraph.umd.cjs",
+  "module": "./dist/paragraph.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    "types": "./dist/types/index.d.ts",
+    "import": "./dist/paragraph.js",
+    "require": "./dist/paragraph.umd.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vclmbv/paragraph.git"
+  },
+  "publishConfig": {
+    "@vclmbv:registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "prepare": "husky",
+    "release:local": "semantic-release --no-ci",
+    "release": "semantic-release",
+    "auto": "git add . && cz && commitlint --edit --verbose && git push origin main"
+  },
+  "devDependencies": {
+    "@codexteam/icons": "^0.3.1",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@types/node": "^20.14.10",
+    "@vclmbv/dtls": "^0.0.11",
+    "commitizen": "^4.3.0",
+    "commitlint": "^19.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "dateformat": "^5.0.3",
+    "dotenv": "^16.4.5",
+    "husky": "^9.1.1",
+    "semantic-release": "^22.0.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.10",
+    "vite-plugin-css-injected-by-js": "^3.5.1",
+    "vite-plugin-dts": "^3.9.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

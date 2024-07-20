@@ -1,0 +1,13 @@
+.github/
+.husky/
+node_modules/
+src/
+.env
+.gitignore
+.npmignore
+commitlint.config.js
+package-lock.json
+README.md
+release.config.js
+tsconfig.json
+vite.config.ts

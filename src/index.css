@@ -1,0 +1,17 @@
+.ce-paragraph {
+  line-height: 1.6em;
+  outline: none;
+}
+
+.ce-paragraph p:first-of-type {
+  margin-top: 0;
+}
+.ce-paragraph p:last-of-type {
+  margin-bottom: 0;
+}
+
+.ce-block:only-of-type .ce-paragraph[data-placeholder]:empty::before,
+.ce-block:only-of-type
+  .ce-paragraph[data-placeholder][data-empty="true"]::before {
+  content: attr(data-placeholder);
+}
