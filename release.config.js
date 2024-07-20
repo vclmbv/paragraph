@@ -71,7 +71,7 @@ export default {
     [
       "@semantic-release/npm",
       {
-        npmPublish: true,
+        npmPublish: false,
         registry: "https://npm.pkg.github.com",
       },
     ],
