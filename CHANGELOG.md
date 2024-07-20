@@ -1,3 +1,13 @@
+## [1.1.0](https://github.com/vclmbv/paragraph/compare/v1.0.0...v1.1.0) (2024-07-20)
+
+
+### Features
+
+* add npmrc ([f4374ab](https://github.com/vclmbv/paragraph/commit/f4374abed4c9f5cb49dfec6c1c6609dccab000b5))
+* new release ([ecb1217](https://github.com/vclmbv/paragraph/commit/ecb1217293f294a87fe5e0adbf1447d6ba6383c6))
+* update dotenv ([29bcad7](https://github.com/vclmbv/paragraph/commit/29bcad7f0f73ae843a2bf7e68568403c30455ce0))
+* update npmrc ([b6120e8](https://github.com/vclmbv/paragraph/commit/b6120e80bc1666a42e7a7d72f14b5e6c591768ad))
+
 ## 1.0.0 (2024-07-20)
 
 
