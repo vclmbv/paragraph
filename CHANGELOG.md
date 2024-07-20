@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/vclmbv/paragraph/compare/v1.1.0...v1.1.1) (2024-07-20)
+
+
+### Bug Fixes
+
+* fix ([6c35f77](https://github.com/vclmbv/paragraph/commit/6c35f771586bc00042632def924502a6ce6527a3))
+
 ## [1.1.0](https://github.com/vclmbv/paragraph/compare/v1.0.0...v1.1.0) (2024-07-20)
 
 
