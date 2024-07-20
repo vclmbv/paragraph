@@ -25,6 +25,7 @@
     "prepare": "husky",
     "release:local": "semantic-release --no-ci",
     "release": "semantic-release",
+    "commit": "cz && commitlint --edit --verbose",
     "auto": "git add . && cz && commitlint --edit --verbose && git push origin main"
   },
   "devDependencies": {
