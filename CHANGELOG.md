@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/vclmbv/paragraph/compare/v1.1.5...v1.2.0) (2024-07-22)
+
+
+### Features
+
+* node auto token ([2e0cbff](https://github.com/vclmbv/paragraph/commit/2e0cbff7d746e3dbe1a60b80143da84733968e8e))
+
 ## [1.1.5](https://github.com/vclmbv/paragraph/compare/v1.1.4...v1.1.5) (2024-07-22)
 
 
