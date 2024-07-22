@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/vclmbv/paragraph/compare/v1.1.1...v1.1.2) (2024-07-22)
+
+
+### Refactor
+
+* automation ([aeb3585](https://github.com/vclmbv/paragraph/commit/aeb358566a7076141e501c994e4900b13f350c01))
+
 ## [1.1.1](https://github.com/vclmbv/paragraph/compare/v1.1.0...v1.1.1) (2024-07-20)
 
 
