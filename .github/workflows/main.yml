@@ -30,6 +30,7 @@ jobs:
           scope: "@vclmbv"
       - env:
           NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           npm ci
           npm run build
