@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/vclmbv/paragraph/compare/v1.1.2...v1.1.3) (2024-07-22)
+
+
+### Styles
+
+* remove dotenv ([fa509be](https://github.com/vclmbv/paragraph/commit/fa509be3d0187294a69708aa4f486d94e46c4665))
+
 ## [1.1.2](https://github.com/vclmbv/paragraph/compare/v1.1.1...v1.1.2) (2024-07-22)
 
 
