@@ -1,3 +1,15 @@
+## [1.3.0](https://github.com/vclmbv/paragraph/compare/v1.2.0...v1.3.0) (2024-07-22)
+
+
+### Features
+
+* github token ([f3cd9c8](https://github.com/vclmbv/paragraph/commit/f3cd9c8bcc734297092b75d0534975bda3e10847))
+
+
+### Performance
+
+* node auto token ([ceda7f9](https://github.com/vclmbv/paragraph/commit/ceda7f908b841935485ebd735e3da8aa74838088))
+
 ## [1.2.0](https://github.com/vclmbv/paragraph/compare/v1.1.5...v1.2.0) (2024-07-22)
 
 
