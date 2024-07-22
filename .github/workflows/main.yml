@@ -28,10 +28,10 @@ jobs:
           node-version: "lts/*"
           registry-url: "https://npm.pkg.github.com/"
           scope: "@vclmbv"
-      - run: |
+      - env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
           npm ci
           npm run build
           npx semantic-release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
