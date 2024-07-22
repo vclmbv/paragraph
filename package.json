@@ -1,6 +1,6 @@
 {
   "name": "@vclmbv/paragraph",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "vclmbv",
   "license": "MIT",
   "type": "module",
@@ -22,11 +22,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "prepare": "husky",
     "release:local": "semantic-release --no-ci",
     "release": "semantic-release",
+    "add": "git add .",
     "commit": "cz && commitlint --edit --verbose",
-    "auto": "git add . && cz && commitlint --edit --verbose && git push origin main"
+    "push": "git push origin main",
+    "auto": "npm run add && npm run commit && npm run push"
   },
   "devDependencies": {
     "@codexteam/icons": "^0.3.1",
@@ -40,7 +41,6 @@
     "cz-conventional-changelog": "^3.3.0",
     "dateformat": "^5.0.3",
     "dotenv": "^16.4.5",
-    "husky": "^9.1.1",
     "semantic-release": "^22.0.12",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5",
