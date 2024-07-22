@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/vclmbv/paragraph/compare/v1.1.3...v1.1.4) (2024-07-22)
+
+
+### Docs
+
+* automation ([c70ab88](https://github.com/vclmbv/paragraph/commit/c70ab88d279465275677385132ea615ede5c877c))
+
 ## [1.1.3](https://github.com/vclmbv/paragraph/compare/v1.1.2...v1.1.3) (2024-07-22)
 
 
