@@ -23,7 +23,6 @@
     "dev": "vite",
     "build": "vite build",
     "release:local": "semantic-release --no-ci",
-    "release": "semantic-release",
     "add": "git add .",
     "commit": "cz && commitlint --edit --verbose",
     "push": "git push origin main",
