@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/vclmbv/paragraph/compare/v1.1.4...v1.1.5) (2024-07-22)
+
+
+### Refactor
+
+* change workflow ([bc78f15](https://github.com/vclmbv/paragraph/commit/bc78f15932d6d66807a16f920113b36ca391b69a))
+
 ## [1.1.4](https://github.com/vclmbv/paragraph/compare/v1.1.3...v1.1.4) (2024-07-22)
 
 
